@@ -49,6 +49,7 @@
 		91AA07801FBC611F0017158A /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AA07841FBC611F0017158A /* CoreDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoUITests.swift; sourceTree = "<group>"; };
 		91AA07861FBC611F0017158A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C1C4B51FBD935600F412AB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				91AA07781FBC611F0017158A /* CoreDataDemoTests */,
 				91AA07831FBC611F0017158A /* CoreDataDemoUITests */,
 				91AA075F1FBC611F0017158A /* Products */,
+				91C1C4B41FBD935600F412AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +128,14 @@
 				91AA07861FBC611F0017158A /* Info.plist */,
 			);
 			path = CoreDataDemoUITests;
+			sourceTree = "<group>";
+		};
+		91C1C4B41FBD935600F412AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C1C4B51FBD935600F412AB /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
